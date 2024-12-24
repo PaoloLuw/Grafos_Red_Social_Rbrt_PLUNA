@@ -1,0 +1,27 @@
+{
+  "nodos": [
+    {"id": 1, "nombre": "Alice", "edad": 25, "ciudad": "Lima"},
+    {"id": 2, "nombre": "Bob", "edad": 22, "ciudad": "Arequipa"},
+    {"id": 3, "nombre": "Charlie", "edad": 30, "ciudad": "Cusco"},
+    {"id": 4, "nombre": "David", "edad": 27, "ciudad": "Piura"},
+    {"id": 5, "nombre": "Eve", "edad": 28, "ciudad": "Trujillo"},
+    {"id": 6, "nombre": "Frank", "edad": 35, "ciudad": "Chiclayo"},
+    {"id": 7, "nombre": "Grace", "edad": 29, "ciudad": "Puno"},
+    {"id": 8, "nombre": "Hannah", "edad": 24, "ciudad": "Tacna"},
+    {"id": 9, "nombre": "Ivy", "edad": 26, "ciudad": "Callao"},
+    {"id": 10, "nombre": "Jack", "edad": 33, "ciudad": "Arequipa"}
+
+  ],
+  "transiciones": [
+    {"de": 1, "a": 2},
+    {"de": 2, "a": 3},
+    {"de": 1, "a": 3},
+    {"de": 4, "a": 5},
+    {"de": 5, "a": 6},
+    {"de": 4, "a": 6},
+    {"de": 7, "a": 8},
+    {"de": 8, "a": 9},
+    {"de": 7, "a": 9}
+  ]
+}
+
